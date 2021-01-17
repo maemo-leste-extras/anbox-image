@@ -1,4 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --no-parallel
+	dh $@
+
+override_dh_auto_build:
+	$(MAKE) $(shell dpkg-architecture -q DEB_TARGET_ARCH)

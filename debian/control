@@ -8,17 +8,7 @@ Homepage: https://anbox.postmarketos.org
 Vcs-Git: https://github.com/maemo-leste-extras/anbox-image
 Vcs-Browser: https://github.com/maemo-leste-extras/anbox-image
 
-Package: anbox-image-arm64
-Architecture: arm64
+Package: anbox-image
+Architecture: amd64 armhf arm64
 Depends: ${misc:Depends}
-Description: arm64 Android image for Anbox
-
-Package: anbox-image-armhf
-Architecture: armhf
-Depends: ${misc:Depends}
-Description: armhf Android image for Anbox
-
-Package: anbox-image-amd64
-Architecture: amd64
-Depends: ${misc:Depends}
-Description: amd64 Android image for Anbox
+Description: Android image for Anbox
