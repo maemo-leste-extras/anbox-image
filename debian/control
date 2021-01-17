@@ -2,7 +2,7 @@ Source: anbox-image
 Section: libs
 Priority: optional
 Maintainer: Ivan J. <parazyd@dyne.org>
-Build-Depends: debhelper (>= 10), wget
+Build-Depends: debhelper (>= 10), wget, ca-certificates
 Standards-Version: 4.3.0
 Homepage: https://anbox.postmarketos.org
 Vcs-Git: https://github.com/maemo-leste-extras/anbox-image
