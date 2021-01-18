@@ -1,3 +1,12 @@
+anbox-image (7.1.2.1-1) unstable; urgency=medium
+
+  * Update armhf image version.
+  * Depend on ca-certificates for proper downloads.
+  * Add gbp.conf
+  * Unify into one package.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 19 Jan 2021 00:00:42 +0100
+
 anbox-image (7.1.2-1) unstable; urgency=medium
 
   * Initial Leste packaging
